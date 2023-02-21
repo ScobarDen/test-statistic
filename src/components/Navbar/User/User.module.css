@@ -1,0 +1,32 @@
+.profilePhoto {
+    border-radius: 8px;
+    background-size: cover;
+    width: 2.2rem;
+    height: 2.2rem;
+    margin: auto 1rem auto 0;
+}
+.userData {
+    display: flex;
+    flex-direction:row;
+    background-color: var(--primary-background-color);
+    margin:  0.5rem 0 0.5rem 0;
+    border-radius: 8px;
+    width: content-box;
+    height: 2.3rem;
+}
+.userData:hover {
+    cursor: pointer;
+    background-color: var(--hover-color);
+    transition: background-color .3s;
+
+}
+.userData:active {
+    cursor: pointer;
+    background-color: var(--active-color);
+    transition: background-color .3s;
+
+}
+.username {
+    margin: auto 1rem auto .9rem;
+    color: var(--text-color);
+}

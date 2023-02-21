@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x:hidden;
+    background-color: var(--primary-background-color);
+}
+
+.app {
+    background-color: var(--primary-background-color);
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    background-color: var(--primary-background-color);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+}
+
+.wrapper {
+    margin-top: 4rem;
+    display: flex;
+    background-color: var(--primary-background-color);
+    color: var(--text-color);
+    flex: 1 1 auto;
+}

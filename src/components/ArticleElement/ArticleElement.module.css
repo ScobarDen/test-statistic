@@ -1,0 +1,56 @@
+.wrap {
+    background-color: var(--navbar-background-color);
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.profilePhoto {
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 10%;
+}
+.userData {
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+    margin-bottom: .8rem;
+}
+.userData:hover{
+    cursor: pointer;
+}
+.title:hover{
+    cursor: pointer;
+    color: var(--links-text-color);
+}
+.title{
+    transition: color .2s;
+    margin-bottom: 1.25rem;
+    font-size: 1.5rem;
+}
+
+p{
+    overflow: hidden;
+}
+
+.name{
+    font-size: .8rem;
+    margin: auto 0;
+    transition: color .2s;
+}
+.name:hover{
+    color: var(--hover-color);
+}
+.button {
+    height: 2rem;
+    width: auto;
+    padding: .3rem;
+    background-color: var(--navbar-background-color);
+    border:2px solid var(--text-color);
+    border-radius: 0.2rem;
+    margin-top: 1.25rem;
+    color: var(--text-color);
+    transition: background-color .2s;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: var(--hover-color);
+}
